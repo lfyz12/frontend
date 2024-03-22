@@ -1,0 +1,8 @@
+export const LOGIN_ROUTE = '/login'
+export const REGISTER_ROUTE = '/register'
+export const HOME_ROUTE = '/'
+export const CURS_ROUTE = '/curs'
+export const ACCOUNT_ROUTE = '/profile'
+export const MYCURS_ROUTE = '/mycurs'
+export const CURSDETAIL_ROUTE = '/cursdetail'
+export const ABOUT_ROUTE = '/about'

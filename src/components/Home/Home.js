@@ -1,19 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import axios from 'axios'
-import {API_URL} from "../../index";
+import {API_URL, Context} from "../../index";
+import Carusel from './Carusel';
 const Home = () => {
-    const [cursList, setCursList] = useState([])
-    const getCursList = (data) => {
-        axios.get(API_URL).then(res => setCursList([res]))
-    }
 
-    useEffect(() => {
-        getCursList()
-    }, [])
-    console.log(cursList)
     return (
         <div>
-
+            <Carusel/>
         </div>
     );
 };
